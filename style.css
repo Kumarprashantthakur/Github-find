@@ -26,6 +26,8 @@ body {
   justify-content: space-evenly;
   box-shadow: 0 3px 10px gray;
   margin-bottom: 60px;
+  border-radius: 20px; 
+  overflow: hidden;  
 }
 
 #input {
@@ -35,6 +37,8 @@ body {
   border: none;
   outline: none;
   padding: 0 15px;
+   border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 #search {
@@ -45,6 +49,9 @@ body {
   border: none;
   cursor: pointer;
   text-transform: uppercase;
+   border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 }
 
 .profile-card {
